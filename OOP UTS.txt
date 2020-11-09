@@ -1,0 +1,55 @@
+
+1. [Bobot: 2] Bagaimana cara mengimpor classWebSocketCreatorFactory? Tuliskan code caranya!
+https://github.com/perwendel/spark/blob/master/src/main/java/spark/embeddedserver/jetty/websocket/WebSocketCreatorFactory.java
+jawaban : import spark.embeddedserver.jetty.websocket.WebSocketCreatorFactory.java
+(Jeprot)
+
+2.[4] Bagaimana cara mengimpor methodencode()dari class Base64? Tuliskan code caranya
+https://github.com/perwendel/spark/blob/master/src/main/java/spark/Base64.java
+jawaban : import spark.Service.Base64.encode
+(Jeprot)
+ 
+3. [4] Bagaimana cara mengimplementasi interfaceFilterdan interfaceWrapper? Tulislah sebuah class
+
+jawaban 1 
+
+interface Filter {
+}
+
+interface Wrapper {
+}
+
+
+class House implements Filter{ 
+}
+
+class House implements Wrapper {
+}
+
+jawban 2
+
+interface Filter {
+	class House implements Filter{ 
+	}
+}
+
+interface Wrapper {
+	class House implements Wrapper {
+	}
+}
+(Jeprot)
+
+4.[4] Bagaimana  cara  meng-extendsclassAccess?  Melanjutkan  menulis classbernama Housepada soal di atas, cobalah meng-extendsclassAccess.
+jawaban :
+class House extends Acces{
+}
+(Jeprot)
+
+5.[4]  Sebutkan classapa  saja  yang  dapat  mengakses attributeDEFAULT_ACCEPT_TYPEmilik classService!
+jawaban :
+class Service dan class Routable
+(Jeprot)
+
+6. [4] Sebutkan classapa saja yang dapat mengakses methodgetApplication()milik classSparkFilter!
+https://github.com/perwendel/spark/tree/master/src/main/java/spark/servlet
+jawaban :
